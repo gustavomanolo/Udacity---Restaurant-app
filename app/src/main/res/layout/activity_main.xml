@@ -5,9 +5,7 @@
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:fillViewport="false"
-    android:orientation="vertical"
-    android:padding="10dp"
-    tools:context=".MainActivity">
+    android:padding="10dp">
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
@@ -33,7 +31,8 @@
                 android:layout_gravity="center_vertical"
                 android:layout_marginLeft="20dp"
                 android:fontFamily="monospace"
-                android:text="My Restaurant"
+                android:text="@string/app_name"
+                android:textColor="@color/red"
                 android:textSize="20sp" />
 
         </LinearLayout>
@@ -50,7 +49,7 @@
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:layout_marginTop="10dp"
-            android:text="We just make the best hamburguers in the city, come with us and if you don't like it, it will for free."
+            android:text="@string/restaurant_description"
             android:textSize="20sp" />
 
         <TextView

@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Restaurant</string>
+    <string name="restaurant_description">We just make the best hamburguers in the city, come with us and if you don\'t like it, it will for free.</string>
 </resources>
